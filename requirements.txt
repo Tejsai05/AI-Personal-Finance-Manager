@@ -17,16 +17,16 @@ plotly==5.18.0
 matplotlib==3.8.2
 seaborn==0.13.1
 
-# Machine Learning
+# Machine Learning (lightweight only for Streamlit Cloud)
 scikit-learn==1.4.0
-xgboost==2.0.3
-tensorflow==2.15.0
-keras==2.15.0
-torch==2.1.2
+# xgboost==2.0.3  # Optional - commented out for faster deployment
+# tensorflow==2.15.0  # Optional - commented out for faster deployment
+# keras==2.15.0  # Optional - commented out for faster deployment
+# torch==2.1.2  # Optional - commented out for faster deployment
 
-# Reinforcement Learning
-stable-baselines3==2.2.1
-gymnasium==0.29.1
+# Reinforcement Learning (optional)
+# stable-baselines3==2.2.1  # Optional - commented out for faster deployment
+# gymnasium==0.29.1  # Optional - commented out for faster deployment
 
 # Market Data
 yfinance==0.2.35
